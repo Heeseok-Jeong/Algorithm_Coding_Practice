@@ -6,6 +6,7 @@
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
 | [2557](https://www.acmicpc.net/problem/2557) | 파이썬연습 | [py](BaekJoon_Online_Judge/2557.py)| 
+| [10718](https://www.acmicpc.net/problem/10718) | 파이썬연습 | [py](BaekJoon_Online_Judge/10718.py)| 
 
 #
 #
