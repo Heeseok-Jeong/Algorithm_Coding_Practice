@@ -20,9 +20,9 @@
 ## Samsung_SW_Expert_Academy
 [삼성 SW expert 아카데미](https://swexpertacademy.com/main/main.do)
 
-| 문제 | 관련 |  |  
+| 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
 
 #
 #
-### referenced by eoqkrskfk94
+#### @referenced by eoqkrskfk94
