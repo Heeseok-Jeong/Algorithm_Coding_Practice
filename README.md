@@ -5,7 +5,7 @@
 
 | 문제 | 관련 | 풀이 |  
 | ------------- | ------------- |:-------------:|
-| [11047](https://www.acmicpc.net/problem/11047) | 그리디 | [py](baekjoon_problems/11047.py)| 
+| [2557](https://www.acmicpc.net/problem/2557) | 파이썬연습 | [py](BaekJoon_Online_Judge/2557.py)| 
 
 #
 #
