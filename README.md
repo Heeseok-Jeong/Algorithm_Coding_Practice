@@ -1,5 +1,5 @@
 # Algorithm_Coding_Practice
-
+#
 ## BaekJoon_Online_Judge
 [백준 온라인 저지](https://www.acmicpc.net/)
 
@@ -7,7 +7,6 @@
 | ------------- | ------------- |:-------------:|
 | [11047](https://www.acmicpc.net/problem/11047) | 그리디 | [py](baekjoon_problems/11047.py)| 
 
-#
 #
 
 ## Programmers_Coding
@@ -17,7 +16,6 @@
 | ------------- | ------------- |:-------------:|
 
 #
-#
 
 ## Samsung_SW_Expert_Academy
 [삼성 SW expert 아카데미](https://swexpertacademy.com/main/main.do)
@@ -25,7 +23,6 @@
 | 문제 | 관련 | 풀이 |  
 | ------------- | ------------- |:-------------:|
 
-#
 #
 
 ### referenced by eoqkrskfk94
