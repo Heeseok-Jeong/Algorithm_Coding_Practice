@@ -10,6 +10,7 @@
 | [10171](https://www.acmicpc.net/problem/10171) | 파이썬연습 | [py](BaekJoon_Online_Judge/10171.py)| 
 | [10172](https://www.acmicpc.net/problem/10172) | 파이썬연습 | [py](BaekJoon_Online_Judge/10172.py)|
 | [1000](https://www.acmicpc.net/problem/1000) | 파이썬연습 | [py](BaekJoon_Online_Judge/1000.py)|
+| [10869](https://www.acmicpc.net/problem/10869) | 파이썬연습 | [py](BaekJoon_Online_Judge/10869.py)|
 
 #
 #
