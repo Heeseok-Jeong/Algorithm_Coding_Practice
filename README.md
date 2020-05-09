@@ -3,7 +3,7 @@
 ## BaekJoon_Online_Judge
 [백준 온라인 저지](https://www.acmicpc.net/)
 
-### 파이썬 단계별로 풀어보기
+#### 파이썬 단계별로 풀어보기
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
 | [2557](https://www.acmicpc.net/problem/2557) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2557.py)| 
@@ -33,4 +33,4 @@
 
 #
 #
-#### @referenced by eoqkrskfk94
+##### @referenced by eoqkrskfk94
