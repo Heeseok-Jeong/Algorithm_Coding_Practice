@@ -20,6 +20,7 @@
 | [11021](https://www.acmicpc.net/problem/11021) | for문 | [py](BaekJoon_Online_Judge/11021.py)|
 | [2438](https://www.acmicpc.net/problem/2438) | for문 | [py](BaekJoon_Online_Judge/2438.py)|
 | [2439](https://www.acmicpc.net/problem/2439) | for문 | [py](BaekJoon_Online_Judge/2439.py)|
+| [10871](https://www.acmicpc.net/problem/10871) | for문 | [py](BaekJoon_Online_Judge/10871.py)|
 
 #
 #
