@@ -17,6 +17,7 @@
 | [2884](https://www.acmicpc.net/problem/2884) | if문 | [py](BaekJoon_Online_Judge/2884.py)|
 | [8393](https://www.acmicpc.net/problem/8393) | for문 | [py](BaekJoon_Online_Judge/8393.py)|
 | [15552](https://www.acmicpc.net/problem/15552) | for문 | [py](BaekJoon_Online_Judge/15552.py)|
+| [2742](https://www.acmicpc.net/problem/2742) | for문 | [py](BaekJoon_Online_Judge/2742.py)|
 
 #
 #
