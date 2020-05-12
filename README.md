@@ -21,7 +21,7 @@
 | [2438](https://www.acmicpc.net/problem/2438) | for문 | [py](BaekJoon_Online_Judge/2438.py)|
 | [2439](https://www.acmicpc.net/problem/2439) | for문 | [py](BaekJoon_Online_Judge/2439.py)|
 | [10871](https://www.acmicpc.net/problem/10871) | for문 | [py](BaekJoon_Online_Judge/10871.py)|
-| [10951](https://www.acmicpc.net/problem/10951) | for문 | [py](BaekJoon_Online_Judge/10951.py)|
+| [10951](https://www.acmicpc.net/problem/10951) | while문 | [py](BaekJoon_Online_Judge/10951.py)|
 
 #
 #
