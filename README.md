@@ -26,6 +26,7 @@
 | [10039](https://www.acmicpc.net/problem/10039) | 실습1 | [py](BaekJoon_Online_Judge/10039.py)|
 | [10817](https://www.acmicpc.net/problem/10817) | 실습1 | [py](BaekJoon_Online_Judge/10817.py)|
 | [2446](https://www.acmicpc.net/problem/2446) | 실습1 | [py](BaekJoon_Online_Judge/2446.py)|
+| [10996](https://www.acmicpc.net/problem/10996) | 실습1 | [py](BaekJoon_Online_Judge/10996.py)|
 
 #
 #
