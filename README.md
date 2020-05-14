@@ -24,6 +24,7 @@
 | [10951](https://www.acmicpc.net/problem/10951) | while문 | [py](BaekJoon_Online_Judge/10951.py)|
 | [1110](https://www.acmicpc.net/problem/1110) | while문 | [py](BaekJoon_Online_Judge/1110.py)|
 | [10039](https://www.acmicpc.net/problem/10039) | 실습1 | [py](BaekJoon_Online_Judge/10039.py)|
+| [10817](https://www.acmicpc.net/problem/10817) | 실습1 | [py](BaekJoon_Online_Judge/10817.py)|
 
 #
 #
