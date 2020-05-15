@@ -1,7 +1,6 @@
 import sys
 
 count_list = [0]*10
-print(len(count_list))
 
 a = int(sys.stdin.readline())
 b = int(sys.stdin.readline())
