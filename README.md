@@ -4,6 +4,10 @@
 [백준 온라인 저지](https://www.acmicpc.net/)
 
 #### 파이썬 단계별로 풀어보기
+
+<details>
+<summary>펼치기 / 접기</summary>
+    
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
 | [2557](https://www.acmicpc.net/problem/2557) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2557.py)| 
@@ -29,11 +33,7 @@
 | [10996](https://www.acmicpc.net/problem/10996) | 실습1 | [py](BaekJoon_Online_Judge/10996.py)|
 | [2562](https://www.acmicpc.net/problem/2562) | 1차원 배열 | [py](BaekJoon_Online_Judge/2562.py)|
 | [2577](https://www.acmicpc.net/problem/2577) | 1차원 배열 | [py](BaekJoon_Online_Judge/2577.py)|
-| [3052](https://www.acmicpc.net/problem/3052) | 1차원 배열 | [py](BaekJoon_Online_Judge/3052.py)|
-<details>
-    <summary>펼치기 / 접기</summary>
-    
-    
+| [3052](https://www.acmicpc.net/problem/3052) | 1차원 배열 | [py](BaekJoon_Online_Judge/3052.py)| 
 </details>
 
 
