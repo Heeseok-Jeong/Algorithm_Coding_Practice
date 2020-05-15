@@ -5,8 +5,7 @@
 
 #### 파이썬 단계별로 풀어보기
 <details>
-    <summary>펼치기/접기</summary>
-
+    <summary>펼치기 / 접기</summary>
     | 문제 | 관련 | 코드 |  
     | ------------- | ------------- |:-------------:|
     | [2557](https://www.acmicpc.net/problem/2557) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2557.py)| 
@@ -40,6 +39,7 @@
 #
 ## Programmers_Coding
 [프로그래머스 코딩테스트 연습](https://programmers.co.kr/learn/challenges)
+
 
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
