@@ -36,23 +36,30 @@
 | [3052](https://www.acmicpc.net/problem/3052) | 1차원 배열 | [py](BaekJoon_Online_Judge/3052.py)| 
 </details>
 
-
 #
 #
 ## Programmers_Coding
 [프로그래머스 코딩테스트 연습](https://programmers.co.kr/learn/challenges)
 
 
+<details>
+<summary>펼치기 / 접기</summary>
+    
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
+</details>
 
 #
 #
 ## Samsung_SW_Expert_Academy
 [삼성 SW expert 아카데미](https://swexpertacademy.com/main/main.do)
 
+<details>
+<summary>펼치기 / 접기</summary>
+    
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
+</details>
 
 #
 #
