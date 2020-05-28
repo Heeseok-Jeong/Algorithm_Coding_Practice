@@ -45,6 +45,7 @@
 | [5622](https://www.acmicpc.net/problem/5622) | 문자열 | [py](BaekJoon_Online_Judge/5622.py)|
 | [2941](https://www.acmicpc.net/problem/2941) | 문자열 | [py](BaekJoon_Online_Judge/2941.py)|
 | [1316](https://www.acmicpc.net/problem/1316) | 문자열 | [py](BaekJoon_Online_Judge/1316.py)|
+| [10872](https://www.acmicpc.net/problem/10872) | 문자열 | [py](BaekJoon_Online_Judge/10872.py)|
 </details>
 
 #
