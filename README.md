@@ -47,6 +47,7 @@
 | [1316](https://www.acmicpc.net/problem/1316) | 문자열 | [py](BaekJoon_Online_Judge/1316.py)|
 | [10872](https://www.acmicpc.net/problem/10872) | 재귀 | [py](BaekJoon_Online_Judge/10872.py)|
 | [11729](https://www.acmicpc.net/problem/11729) | 재귀 | [py](BaekJoon_Online_Judge/11729.py)|
+| [2798](https://www.acmicpc.net/problem/2798) | 브루트 포스 | [py](BaekJoon_Online_Judge/2798.py)|
 </details>
 
 #
