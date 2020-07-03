@@ -49,6 +49,7 @@
 | [11729](https://www.acmicpc.net/problem/11729) | 재귀 | [py](BaekJoon_Online_Judge/11729.py)|
 | [2798](https://www.acmicpc.net/problem/2798) | 브루트 포스 | [py](BaekJoon_Online_Judge/2798.py)|
 | [15649](https://www.acmicpc.net/problem/15649) | 백트래킹 | [py](BaekJoon_Online_Judge/15649.py)|
+| [15651_N과M(3)](https://www.acmicpc.net/problem/15651) | 백트래킹 | [py](BaekJoon_Online_Judge/15651.py)|
 </details>
 
 #
