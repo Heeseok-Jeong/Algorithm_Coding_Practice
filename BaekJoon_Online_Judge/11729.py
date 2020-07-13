@@ -1,6 +1,6 @@
 import sys
 
-def hanoi(n, f, t, o):
+def hanoi(n, f, t, o): #n, from, to, other
     if(n==0):
         return
     else:
