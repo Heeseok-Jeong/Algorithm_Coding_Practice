@@ -46,7 +46,7 @@
 | [2941](https://www.acmicpc.net/problem/2941) | 문자열 | [py](BaekJoon_Online_Judge/2941.py)|
 | [1316](https://www.acmicpc.net/problem/1316) | 문자열 | [py](BaekJoon_Online_Judge/1316.py)|
 | [10872](https://www.acmicpc.net/problem/10872) | 재귀 | [py](BaekJoon_Online_Judge/10872.py)|
-| [11729](https://www.acmicpc.net/problem/11729) | 재귀 | [py](BaekJoon_Online_Judge/11729.py)|
+| [11729 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | 재귀 | [py](BaekJoon_Online_Judge/11729.py)|
 | [2798](https://www.acmicpc.net/problem/2798) | 브루트 포스 | [py](BaekJoon_Online_Judge/2798.py)|
 | [15649 N과M(1)](https://www.acmicpc.net/problem/15649) | 백트래킹 | [py](BaekJoon_Online_Judge/15649.py)|
 | [15651 N과M(3)](https://www.acmicpc.net/problem/15651) | 백트래킹 | [py](BaekJoon_Online_Judge/15651.py)|
