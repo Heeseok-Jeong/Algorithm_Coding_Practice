@@ -51,6 +51,7 @@
 | [15649_N과M(1)](https://www.acmicpc.net/problem/15649) | 백트래킹 | [py](BaekJoon_Online_Judge/15649.py)|
 | [15651_N과M(3)](https://www.acmicpc.net/problem/15651) | 백트래킹 | [py](BaekJoon_Online_Judge/15651.py)|
 | [9663_N-Queen](https://www.acmicpc.net/problem/9663) | 백트래킹 | [py](BaekJoon_Online_Judge/9663.py)|
+| [1260_DFS와 BFS](https://www.acmicpc.net/problem/1260) | DFS와 BFS | [py](BaekJoon_Online_Judge/1260.py)|
 </details>
 
 #
