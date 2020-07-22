@@ -10,44 +10,44 @@
     
 | 문제 | 관련 | 코드 |  
 | ------------- | ------------- |:-------------:|
-| [2557](https://www.acmicpc.net/problem/2557) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2557.py)| 
-| [10718](https://www.acmicpc.net/problem/10718) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10718.py)| 
-| [10171](https://www.acmicpc.net/problem/10171) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10171.py)| 
-| [10172](https://www.acmicpc.net/problem/10172) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10172.py)|
-| [1000](https://www.acmicpc.net/problem/1000) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/1000.py)|
-| [10869](https://www.acmicpc.net/problem/10869) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10869.py)|
-| [2588](https://www.acmicpc.net/problem/2588) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2588.py)|
-| [2753](https://www.acmicpc.net/problem/2753) | if문 | [py](BaekJoon_Online_Judge/2753.py)|
-| [2884](https://www.acmicpc.net/problem/2884) | if문 | [py](BaekJoon_Online_Judge/2884.py)|
-| [8393](https://www.acmicpc.net/problem/8393) | for문 | [py](BaekJoon_Online_Judge/8393.py)|
-| [15552](https://www.acmicpc.net/problem/15552) | for문 | [py](BaekJoon_Online_Judge/15552.py)|
-| [11021](https://www.acmicpc.net/problem/11021) | for문 | [py](BaekJoon_Online_Judge/11021.py)|
-| [2438](https://www.acmicpc.net/problem/2438) | for문 | [py](BaekJoon_Online_Judge/2438.py)|
-| [2439](https://www.acmicpc.net/problem/2439) | for문 | [py](BaekJoon_Online_Judge/2439.py)|
-| [10871](https://www.acmicpc.net/problem/10871) | for문 | [py](BaekJoon_Online_Judge/10871.py)|
-| [10951](https://www.acmicpc.net/problem/10951) | while문 | [py](BaekJoon_Online_Judge/10951.py)|
-| [1110](https://www.acmicpc.net/problem/1110) | while문 | [py](BaekJoon_Online_Judge/1110.py)|
-| [10039](https://www.acmicpc.net/problem/10039) | 실습1 | [py](BaekJoon_Online_Judge/10039.py)|
-| [10817](https://www.acmicpc.net/problem/10817) | 실습1 | [py](BaekJoon_Online_Judge/10817.py)|
-| [2446](https://www.acmicpc.net/problem/2446) | 실습1 | [py](BaekJoon_Online_Judge/2446.py)|
-| [10996](https://www.acmicpc.net/problem/10996) | 실습1 | [py](BaekJoon_Online_Judge/10996.py)|
-| [2562](https://www.acmicpc.net/problem/2562) | 1차원 배열 | [py](BaekJoon_Online_Judge/2562.py)|
-| [2577](https://www.acmicpc.net/problem/2577) | 1차원 배열 | [py](BaekJoon_Online_Judge/2577.py)|
-| [3052](https://www.acmicpc.net/problem/3052) | 1차원 배열 | [py](BaekJoon_Online_Judge/3052.py)| 
-| [4344](https://www.acmicpc.net/problem/4344) | 1차원 배열 | [py](BaekJoon_Online_Judge/4344.py)| 
-| [4673](https://www.acmicpc.net/problem/4673) | 함수 | [py](BaekJoon_Online_Judge/4673.py)| 
-| [1065](https://www.acmicpc.net/problem/1065) | 함수 | [py](BaekJoon_Online_Judge/1065.py)| 
-| [11654](https://www.acmicpc.net/problem/11654) | 문자열 | [py](BaekJoon_Online_Judge/11654.py)|
-| [10809](https://www.acmicpc.net/problem/10809) | 문자열 | [py](BaekJoon_Online_Judge/10809.py)|
-| [1157](https://www.acmicpc.net/problem/1157) | 문자열 | [py](BaekJoon_Online_Judge/1157.py)|
-| [1152](https://www.acmicpc.net/problem/1152) | 문자열 | [py](BaekJoon_Online_Judge/1152.py)|
-| [2908](https://www.acmicpc.net/problem/2908) | 문자열 | [py](BaekJoon_Online_Judge/2908.py)|
-| [5622](https://www.acmicpc.net/problem/5622) | 문자열 | [py](BaekJoon_Online_Judge/5622.py)|
-| [2941](https://www.acmicpc.net/problem/2941) | 문자열 | [py](BaekJoon_Online_Judge/2941.py)|
-| [1316](https://www.acmicpc.net/problem/1316) | 문자열 | [py](BaekJoon_Online_Judge/1316.py)|
-| [10872](https://www.acmicpc.net/problem/10872) | 재귀 | [py](BaekJoon_Online_Judge/10872.py)|
+| [2557_Hello World](https://www.acmicpc.net/problem/2557) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2557.py)| 
+| [10718_We love kriii](https://www.acmicpc.net/problem/10718) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10718.py)| 
+| [10171_고양이](https://www.acmicpc.net/problem/10171) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10171.py)| 
+| [10172_개](https://www.acmicpc.net/problem/10172) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10172.py)|
+| [1000_A+B](https://www.acmicpc.net/problem/1000) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/1000.py)|
+| [10869_사칙연산](https://www.acmicpc.net/problem/10869) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/10869.py)|
+| [2588_곱셈](https://www.acmicpc.net/problem/2588) | 입출력과 사칙연산 | [py](BaekJoon_Online_Judge/2588.py)|
+| [2753_윤년](https://www.acmicpc.net/problem/2753) | if문 | [py](BaekJoon_Online_Judge/2753.py)|
+| [2884_알람 시계](https://www.acmicpc.net/problem/2884) | if문 | [py](BaekJoon_Online_Judge/2884.py)|
+| [8393_합](https://www.acmicpc.net/problem/8393) | for문 | [py](BaekJoon_Online_Judge/8393.py)|
+| [15552_A+B - 7](https://www.acmicpc.net/problem/15552) | for문 | [py](BaekJoon_Online_Judge/15552.py)|
+| [11021_A+B - 7](https://www.acmicpc.net/problem/11021) | for문 | [py](BaekJoon_Online_Judge/11021.py)|
+| [2438_별 찍기 - 1](https://www.acmicpc.net/problem/2438) | for문 | [py](BaekJoon_Online_Judge/2438.py)|
+| [2439_별 찍기 - 2](https://www.acmicpc.net/problem/2439) | for문 | [py](BaekJoon_Online_Judge/2439.py)|
+| [10871_X보다 작은 수](https://www.acmicpc.net/problem/10871) | for문 | [py](BaekJoon_Online_Judge/10871.py)|
+| [10951_A+B - 4](https://www.acmicpc.net/problem/10951) | while문 | [py](BaekJoon_Online_Judge/10951.py)|
+| [1110_더하기 사이클](https://www.acmicpc.net/problem/1110) | while문 | [py](BaekJoon_Online_Judge/1110.py)|
+| [10039_평균 점수](https://www.acmicpc.net/problem/10039) | 실습1 | [py](BaekJoon_Online_Judge/10039.py)|
+| [10817_세 수](https://www.acmicpc.net/problem/10817) | 실습1 | [py](BaekJoon_Online_Judge/10817.py)|
+| [2446_별 찍기 - 9](https://www.acmicpc.net/problem/2446) | 실습1 | [py](BaekJoon_Online_Judge/2446.py)|
+| [10996_별찍기 - 21](https://www.acmicpc.net/problem/10996) | 실습1 | [py](BaekJoon_Online_Judge/10996.py)|
+| [2562_최댓값](https://www.acmicpc.net/problem/2562) | 1차원 배열 | [py](BaekJoon_Online_Judge/2562.py)|
+| [2577_숫자의 개수](https://www.acmicpc.net/problem/2577) | 1차원 배열 | [py](BaekJoon_Online_Judge/2577.py)|
+| [3052_나머지](https://www.acmicpc.net/problem/3052) | 1차원 배열 | [py](BaekJoon_Online_Judge/3052.py)| 
+| [4344_평균은 넘겠지](https://www.acmicpc.net/problem/4344) | 1차원 배열 | [py](BaekJoon_Online_Judge/4344.py)| 
+| [4673_셀프 넘버](https://www.acmicpc.net/problem/4673) | 함수 | [py](BaekJoon_Online_Judge/4673.py)| 
+| [1065_한수](https://www.acmicpc.net/problem/1065) | 함수 | [py](BaekJoon_Online_Judge/1065.py)| 
+| [11654_아스키 코드](https://www.acmicpc.net/problem/11654) | 문자열 | [py](BaekJoon_Online_Judge/11654.py)|
+| [10809_알파벳 찾기](https://www.acmicpc.net/problem/10809) | 문자열 | [py](BaekJoon_Online_Judge/10809.py)|
+| [1157_단어 공부](https://www.acmicpc.net/problem/1157) | 문자열 | [py](BaekJoon_Online_Judge/1157.py)|
+| [1152_단어의 개수](https://www.acmicpc.net/problem/1152) | 문자열 | [py](BaekJoon_Online_Judge/1152.py)|
+| [2908_상수](https://www.acmicpc.net/problem/2908) | 문자열 | [py](BaekJoon_Online_Judge/2908.py)|
+| [5622_다이얼](https://www.acmicpc.net/problem/5622) | 문자열 | [py](BaekJoon_Online_Judge/5622.py)|
+| [2941_크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | 문자열 | [py](BaekJoon_Online_Judge/2941.py)|
+| [1316_그룹 단어 체커](https://www.acmicpc.net/problem/1316) | 문자열 | [py](BaekJoon_Online_Judge/1316.py)|
+| [10872_팩토리얼](https://www.acmicpc.net/problem/10872) | 재귀 | [py](BaekJoon_Online_Judge/10872.py)|
 | [11729_하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | 재귀 | [py](BaekJoon_Online_Judge/11729.py)|
-| [2798](https://www.acmicpc.net/problem/2798) | 브루트 포스 | [py](BaekJoon_Online_Judge/2798.py)|
+| [2798_블랙잭](https://www.acmicpc.net/problem/2798) | 브루트 포스 | [py](BaekJoon_Online_Judge/2798.py)|
 | [15649_N과M(1)](https://www.acmicpc.net/problem/15649) | 백트래킹 | [py](BaekJoon_Online_Judge/15649.py)|
 | [15651_N과M(3)](https://www.acmicpc.net/problem/15651) | 백트래킹 | [py](BaekJoon_Online_Judge/15651.py)|
 | [9663_N-Queen](https://www.acmicpc.net/problem/9663) | 백트래킹 | [py](BaekJoon_Online_Judge/9663.py)|
