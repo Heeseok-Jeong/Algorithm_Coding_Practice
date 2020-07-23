@@ -39,9 +39,9 @@ def fib(x, count_list):
     # print(left)
     # print(x-2, end=' : ')
     # print(right)
-    count_list[x] = [left[0] + right[0], left[1] + right[1]]
-    # count_list[x][0] = left[0] + right[0]
-    # count_list[x][1] = left[1] + right[1]
+    # count_list[x] = [left[0] + right[0], left[1] + right[1]]
+    count_list[x][0] = left[0] + right[0]
+    count_list[x][1] = left[1] + right[1]
 
     # print(count_list)
     return count_list[x]
@@ -53,7 +53,11 @@ count_one = 0
 for i in range(n): #입력 받기
     n_list.append(int(read_sys()))
 for x in n_list: #각각 테스트 돌고 결과 출력
-    count_list = [[-1, -1]]*(x+2)
+    if x == 0:
+        print('1 0')
+        continue
+    # count_list = [[-1, -1]]*(x+2)
+    count_list = [[-1, -1] for i in range(x+1)]
     count_list[0] = [1,0]
     count_list[1] = [0,1]
     result = fib(x, count_list)
