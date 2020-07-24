@@ -1,4 +1,4 @@
-# 반복문 + DP, 결과에도 15746 나눠야 시간 오래 안걸림
+# 반복문 + DP, 결과에 계속 15746 나눠야 시간 오래 안걸림
 def solve(n):
     if n == 1:
         return 1
@@ -11,17 +11,13 @@ def solve(n):
             # result[i] = result[i-1] + result[i-2]
             # result.append(result[i-1] + result[i-2])
         # print(result)
-
-def print_result(n, result):
-    print(result[n]%15746)
-
+        
 n = int(input())
 # result = [1 for i in range(n+1)]
 result = [1, 1]
 # print("len : ", len(result))
 # solve(n, result)
-print(solve(n)%15746)
-# print_result(n, result)
+print(solve(n))
 
 
 
