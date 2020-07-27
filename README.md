@@ -54,6 +54,13 @@
 | [1260_DFS와 BFS](https://www.acmicpc.net/problem/1260) | DFS와 BFS | [py](BaekJoon_Online_Judge/1260.py)|
 | [2748_피보나치 수 2](https://www.acmicpc.net/problem/2748) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2748.py)|
 | [1003_피보나치 함수](https://www.acmicpc.net/problem/1003) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1003.py)|
+| [1904_01타일](https://www.acmicpc.net/problem/1904) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1904.py)|
+| [9461_파도반 수열](https://www.acmicpc.net/problem/9461) | 동적 계획법1 | [py](BaekJoon_Online_Judge/9461.py)|
+| [1904_01타일](https://www.acmicpc.net/problem/1904) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1904.py)|
+| [1932_정수 삼각형](https://www.acmicpc.net/problem/1932) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1932.py)|
+| [1904_01타일](https://www.acmicpc.net/problem/1904) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1904.py)|
+| [1949_RGB거리](https://www.acmicpc.net/problem/1949) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1949.py)|
+| [11047_동전 0](https://www.acmicpc.net/problem/11047) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/11047.py)|
 </details>
 
 #
