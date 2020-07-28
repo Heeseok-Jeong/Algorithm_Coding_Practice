@@ -61,6 +61,7 @@
 | [1904_01타일](https://www.acmicpc.net/problem/1904) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1904.py)|
 | [1949_RGB거리](https://www.acmicpc.net/problem/1949) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1949.py)|
 | [11047_동전 0](https://www.acmicpc.net/problem/11047) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/11047.py)|
+| [1541_잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/1541.py)|
 </details>
 
 #
