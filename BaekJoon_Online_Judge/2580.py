@@ -5,7 +5,7 @@ size = 9
 def read_sys():
     return sys.stdin.readline()
 
-def get_input(arr_sudoku, arr_zero_location):
+def get_input(arr_sudoku):
     for i in range(size):
         arr_sudoku.append(list(map(int, read_sys().split())))
 
@@ -97,7 +97,8 @@ def print_result(arr_sudoku):
 
 arr_sudoku = []
 arr_zero_location = []
-get_input(arr_sudoku, arr_zero_location)
+get_input(arr_sudoku)
+# print(arr_sudoku)
 check_zero_location(arr_sudoku, arr_zero_location)
 solve_sudoku(arr_sudoku, arr_zero_location)
 print()
