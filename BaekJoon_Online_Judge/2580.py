@@ -1,104 +1,52 @@
 import sys
 
-size = 9
+def get_possible_num(x, y):
+    possible_list = [i for i in range(1, size+1)]
 
-def read_sys():
-    return sys.stdin.readline()
-
-def get_input(arr_sudoku, arr_zero_location):
     for i in range(size):
-        arr_sudoku.append(list(map(int, read_sys().split())))
+        #row
+        if n_list[x][i] in possible_list:
+            possible_list.remove(n_list[x][i])
+        #col
+        if n_list[i][y] in possible_list:
+            possible_list.remove(n_list[i][y])
 
-def check_zero_location(arr_sudoku, arr_zero_location):
-    for i in range(size):
-        for j in range(size):
-            if arr_sudoku[i][j] == 0:
-                arr_zero_location.append((i, j))
+    #lec
+    new_x = (x//3)*3
+    new_y = (y//3)*3
+    for i in range(new_x, new_x+3):
+        for j in range(new_y, new_y+3):
+            if n_list[i][j] in possible_list:
+                possible_list.remove(n_list[i][j])
 
-def solve_sudoku2(arr_sudoku, arr_zero_location):
-    for i, j in arr_zero_location:
+    return possible_list
+
+def solve(zero_index):
+    global done
+
+    if done:
         return
 
-def solve_sudoku(arr_sudoku, arr_zero_location):
-    for i, j in arr_zero_location:
-        visited = [False] * (size+1)
-        count = 0
-        zero_location = []
-        # check row
-        for row in arr_sudoku[i]:
-            if row != 0 and visited[row] == False:
-                visited[row] = True
-        for k in range(1, size+1):
-            if visited[k] == False:
-                zero_location.append(k)
-                count += 1
-        if count == 1:
-            arr_sudoku[i][j] = zero_location.pop()
-            continue
-        # check col
-        for row in range(size):
-            col =  arr_sudoku[row][j]
-            if col != 0 and visited[col] == False:
-                print(col)
-                visited[col] = True
-                print(visited)
-        for k in range(1, size+1):
-            if visited[k] == False:
-                zero_location.append(k)
-                count += 1
-        if count == 2:
-            arr_sudoku[i][j] = zero_location.pop()
-            continue
-        # check sector
-        # if i<3:
-        #     if j<3:
-        #         a=0
-        #     elif j<6:
-        #         a=1
-        #     else:
-        #         a=2
-        # elif i<6:
-        #     if j<3:
-        #         a=0
-        #     elif j<6:
-        #         a=1
-        #     else:
-        #         a=2
-        # else:
-        #     if j<3:
-        #         a=0
-        #     elif j<6:
-        #         a=1
-        #     else:
-        #         a=2
-        #
-        # for row in range(size):
-        #     col =  arr_sudoku[row][j]
-        #     if col != 0 and visited[col] == False:
-        #         print(col)
-        #         visited[col] = True
-        #         print(visited)
-        # for k in range(1, size+1):
-        #     if visited[k] == False:
-        #         zero_location.append(k)
-        #         count += 1
-        # if count == 2:
-        #     arr_sudoku[i][j] = zero_location.pop()
-        #     continue
+    if zero_index == len(zero_point):
+        done = True
+        for row in n_list:
+            print(*row)
+        return
 
+    x, y = zero_point[zero_index]
+    possible_list = get_possible_num(x, y)
+    # print(x, y, ":", possible_list)
+    # print()
 
-def print_result(arr_sudoku):
-    for i in arr_sudoku:
-        result = ""
-        for j in i:
-            result += str(j)
-            result += " "
-        print(result)
+    for num in possible_list:
+        n_list[x][y] = num
+        solve(zero_index+1)
+        n_list[x][y] = 0
 
-arr_sudoku = []
-arr_zero_location = []
-get_input(arr_sudoku, arr_zero_location)
-check_zero_location(arr_sudoku, arr_zero_location)
-solve_sudoku(arr_sudoku, arr_zero_location)
-print()
-print_result(arr_sudoku)
+size = 9
+n_list = [list(map(int, sys.stdin.readline().split())) for i in range(size)]
+zero_point = [[i, j] for i in range(size) for j in range(size) if n_list[i][j] == 0]
+zero_index = 0
+done = False
+# print()
+solve(zero_index)
