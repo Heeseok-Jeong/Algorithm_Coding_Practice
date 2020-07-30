@@ -64,6 +64,7 @@
 | [1541_잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/1541.py)|
 | [2580_스도쿠](https://www.acmicpc.net/problem/2580) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2580.py)|
 | [14889_스타트와 링크](https://www.acmicpc.net/problem/14889) | 백트래킹 | [py](BaekJoon_Online_Judge/14889.py)|
+| [15650_N과M(2)](https://www.acmicpc.net/problem/15650) | 백트래킹 | [py](BaekJoon_Online_Judge/15650.py)|
 </details>
 
 #
