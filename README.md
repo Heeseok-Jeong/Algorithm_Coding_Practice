@@ -1,5 +1,5 @@
 # Algorithm_Coding_Practice
-#
+---
 ## BaekJoon_Online_Judge
 [백준 온라인 저지](https://www.acmicpc.net/)
 
@@ -70,8 +70,7 @@
 | [1931_회의실배정](https://www.acmicpc.net/problem/1931) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/1931.py)|
 </details>
 
-#
-#
+---
 ## Programmers_Coding
 [프로그래머스 코딩테스트 연습](https://programmers.co.kr/learn/challenges)
 
@@ -83,8 +82,7 @@
 | ------------- | ------------- |:-------------:|
 </details>
 
-#
-#
+---
 ## Samsung_SW_Expert_Academy
 [삼성 SW expert 아카데미](https://swexpertacademy.com/main/main.do)
 
