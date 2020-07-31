@@ -67,6 +67,7 @@
 | [15650_N과M(2)](https://www.acmicpc.net/problem/15650) | 백트래킹 | [py](BaekJoon_Online_Judge/15650.py)|
 | [15652_N과M(4)](https://www.acmicpc.net/problem/15652) | 백트래킹 | [py](BaekJoon_Online_Judge/15652.py)|
 | [11399_ATM](https://www.acmicpc.net/problem/11399) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/11399.py)|
+| [1931_회의실배정](https://www.acmicpc.net/problem/1931) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/1931.py)|
 </details>
 
 #
