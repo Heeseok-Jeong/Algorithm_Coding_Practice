@@ -10,8 +10,6 @@ def solve(n, x, y): #9
             if not (i-x == n//3 and j-y == n//3): #3,12 일때 막아야 함
                 solve(n//3, i, j)
 
-
-
 n = int(input())
 star = [[" " for _ in range(n)] for _ in range(n)]
 x, y = 0, 0
