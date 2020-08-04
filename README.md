@@ -69,6 +69,7 @@
 | [11399_ATM](https://www.acmicpc.net/problem/11399) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/11399.py)|
 | [1931_회의실배정](https://www.acmicpc.net/problem/1931) | 그리디 알고리즘 | [py](BaekJoon_Online_Judge/1931.py)|
 | [2447_별찍기 - 10](https://www.acmicpc.net/problem/2447) | 재귀 | [py](BaekJoon_Online_Judge/2447.py)|
+| [11053_가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | 동적 계획법1 | [py](BaekJoon_Online_Judge/11053.py)|
 </details>
 
 ---
