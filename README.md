@@ -71,6 +71,7 @@
 | [2447_별찍기 - 10](https://www.acmicpc.net/problem/2447) | 재귀 | [py](BaekJoon_Online_Judge/2447.py)|
 | [11053_가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | 동적 계획법1 | [py](BaekJoon_Online_Judge/11053.py)|
 | [2579_계단 오르기](https://www.acmicpc.net/problem/2579) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2579.py)|
+| [1463_1로 만들기](https://www.acmicpc.net/problem/1463) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1463.py)|
 </details>
 
 ---
