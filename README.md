@@ -72,6 +72,7 @@
 | [11053_가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | 동적 계획법1 | [py](BaekJoon_Online_Judge/11053.py)|
 | [2579_계단 오르기](https://www.acmicpc.net/problem/2579) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2579.py)|
 | [1463_1로 만들기](https://www.acmicpc.net/problem/1463) | 동적 계획법1 | [py](BaekJoon_Online_Judge/1463.py)|
+| [10844_쉬운 계단수](https://www.acmicpc.net/problem/10844) | 동적 계획법1 | [py](BaekJoon_Online_Judge/10844.py)|
 </details>
 
 ---
