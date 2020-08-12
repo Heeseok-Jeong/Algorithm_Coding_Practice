@@ -75,6 +75,7 @@
 | [10844_쉬운 계단수](https://www.acmicpc.net/problem/10844) | 동적 계획법1 | [py](BaekJoon_Online_Judge/10844.py)|
 | [2156_포도주 시식](https://www.acmicpc.net/problem/2156) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2156.py)|
 | [11054_가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) | 동적 계획법1 | [py](BaekJoon_Online_Judge/11054.py)|
+| [2565_전깃줄](https://www.acmicpc.net/problem/2565) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2565.py)|
 
 </details>
 
