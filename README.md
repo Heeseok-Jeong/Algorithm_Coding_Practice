@@ -78,6 +78,7 @@
 | [2565_전깃줄](https://www.acmicpc.net/problem/2565) | 동적 계획법1 | [py](BaekJoon_Online_Judge/2565.py)|
 | [9251_LCS](https://www.acmicpc.net/problem/9251) | 동적 계획법1 | [py](BaekJoon_Online_Judge/9251.py)|
 | [12865_평범한 배낭](https://www.acmicpc.net/problem/12865) | 동적 계획법1 | [py](BaekJoon_Online_Judge/12865.py)|
+| [10828_스택](https://www.acmicpc.net/problem/10828) | 스택 | [py](BaekJoon_Online_Judge/10828.py)|
 
 </details>
 
