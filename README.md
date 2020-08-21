@@ -82,6 +82,7 @@
 | [10773_제로](https://www.acmicpc.net/problem/10773) | 스택 | [py](BaekJoon_Online_Judge/10773.py)|
 | [9012_괄호](https://www.acmicpc.net/problem/9012) | 스택 | [py](BaekJoon_Online_Judge/9012.py)|
 | [1874_스택 수열](https://www.acmicpc.net/problem/1874) | 스택 | [py](BaekJoon_Online_Judge/1874.py)|
+| [18258_큐 2](https://www.acmicpc.net/problem/18258) | 큐,  | [py](BaekJoon_Online_Judge/18258.py)|
 
 </details>
 
