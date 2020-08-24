@@ -83,7 +83,8 @@
 | [9012_괄호](https://www.acmicpc.net/problem/9012) | 스택 | [py](BaekJoon_Online_Judge/9012.py)|
 | [1874_스택 수열](https://www.acmicpc.net/problem/1874) | 스택 | [py](BaekJoon_Online_Judge/1874.py)|
 | [18258_큐 2](https://www.acmicpc.net/problem/18258) | 큐, 덱 | [py](BaekJoon_Online_Judge/18258.py)|
-| [2164_카드2](https://www.acmicpc.net/problem/2164) | 큐,  | [py](BaekJoon_Online_Judge/2164.py)|
+| [2164_카드2](https://www.acmicpc.net/problem/2164) | 큐, 덱 | [py](BaekJoon_Online_Judge/2164.py)|
+| [11866_요세푸스 문제 0](https://www.acmicpc.net/problem/11866) | 큐, 덱 | [py](BaekJoon_Online_Judge/11866.py)|
 
 </details>
 
