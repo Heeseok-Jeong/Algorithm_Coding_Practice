@@ -5,18 +5,17 @@ def read_sys():
     return sys.stdin.readline()
 
 def solve():
-    for p in range(1, n):
-        x = queue[p][0]
-        for q in range(p-1, -1, -1):
-            y = queue[q][0]
-            print("p :", p, ", q :", q, ", x :", x, ", y :", y)
-            if x >= y:
-                temp = queue[p]
-                queue[p] = queue[q]
-                queue[q] = temp
-                p = q
-                print(queue)
-
+    result = 0
+    while True:
+        if queue[0][0] == max(queue)[0]:
+            result += 1
+            if queue[0][1] == 1:
+                return result
+            else:
+                del queue[0]
+        else:
+            queue.append(queue[0])
+            queue.popleft()
 
 size = int(read_sys())
 for i in range(size):
@@ -33,9 +32,5 @@ for i in range(size):
             else:
                 temp = [a, 0]
             queue.append(temp)
-        solve()
-        for k in range(n):
-            if queue[k][1] == 1:
-                result = k+1
-                break
+        result = solve()
     print(result)
