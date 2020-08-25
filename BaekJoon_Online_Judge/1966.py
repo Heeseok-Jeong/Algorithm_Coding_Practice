@@ -12,7 +12,7 @@ def solve():
             if queue[0][1] == 1:
                 return result
             else:
-                del queue[0]
+                queue.popleft()
         else:
             queue.append(queue[0])
             queue.popleft()
