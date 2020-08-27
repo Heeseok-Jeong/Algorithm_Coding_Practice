@@ -87,6 +87,7 @@
 | [11866_요세푸스 문제 0](https://www.acmicpc.net/problem/11866) | 큐, 덱 | [py](BaekJoon_Online_Judge/11866.py)|
 | [1966_프린터 큐](https://www.acmicpc.net/problem/1966) | 큐, 덱 | [py](BaekJoon_Online_Judge/1966.py)|
 | [10866_덱](https://www.acmicpc.net/problem/10866) | 큐, 덱 | [py](BaekJoon_Online_Judge/10866.py)|
+| [1021_회전하는 큐](https://www.acmicpc.net/problem/1021) | 큐, 덱 | [py](BaekJoon_Online_Judge/1021.py)|
 
 </details>
 
