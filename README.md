@@ -89,6 +89,7 @@
 | [10866_덱](https://www.acmicpc.net/problem/10866) | 큐, 덱 | [py](BaekJoon_Online_Judge/10866.py)|
 | [1021_회전하는 큐](https://www.acmicpc.net/problem/1021) | 큐, 덱 | [py](BaekJoon_Online_Judge/1021.py)|
 | [5430_AC](https://www.acmicpc.net/problem/5430) | 큐, 덱 | [py](BaekJoon_Online_Judge/5430.py)|
+| [2606_바이러스](https://www.acmicpc.net/problem/2606) | DFS와 BFS | [py](BaekJoon_Online_Judge/2606.py)|
 
 </details>
 
