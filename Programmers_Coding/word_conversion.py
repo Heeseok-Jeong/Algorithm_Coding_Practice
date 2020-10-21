@@ -1,51 +1,61 @@
 from collections import deque
-import copy
+import sys
 
-def browse(x, target_index, visited, one_diff_list, stack, count, answer):
-    if x == target_index:
-
+INF = sys.maxsize
 
 def solution(begin, target, words):
     answer = 0
-    word_length = len(begin)
-    total_words = copy.deepcopy(words)
-    total_words.insert(0, begin)
-    total_words.append(target)
-    total_words_size = len(total_words)
-    one_diff_list = {}
+    total_words = []
+    total_words.append(begin)
+    total_words.extend(words)
+
+    if target not in words:
+        return 0
+
+    target_index = words.index(target)+1
+    len_total = len(total_words)
+    one_diff_matrix = [[0 for _ in range(len_total)] for _ in range(len_total)]
+
+    for i in range(len_total):
+        for j in range(len_total):
+            count = 0
+            for k in range(len(begin)):
+                if total_words[i][k] != total_words[j][k]:
+                    count += 1
+            if count == 1:
+                one_diff_matrix[i][j] = 1
+
+    print(one_diff_matrix)
+
     dq = deque()
+    min_diff = [INF] * len_total
+    visited = [False] * len_total
+    start = 0
+    min_diff[start] = 0
+    diff = min_diff[start]
+    visited[start] = True
+    for i in range(len_total):
+        if one_diff_matrix[start][i] == 1:
+            dq.append(i)
+            if min_diff[i] > min_diff[start]+1 :
+                min_diff[i] = min_diff[start]+1
 
-    if target in words:
-        for i in range(total_words_size):
-            one_diff = []
-            for j in range(i, total_words_size):
-                count = 0
-                for k in range(word_length):
-                    if total_words[i][k] != total_words[j][k]:
-                        count += 1
-                if count == 1:
-                    one_diff.append(j)
-            one_diff_list[i] = one_diff
-        print("one_diff_list : {}".format(one_diff_list))
-
-        target_index = total_words.index(target)
-        visited = [False] * total_words_size
-        stack = []
-        stack.extend(one_diff_list[0])
-        visited[0] = True
-        answer = browse(x, target_index, visited, one_diff_list, stack, count, answer)
-
-        dq.extend(one_diff_list[0])
-        print("init_dq : {}".format(dq))
-        target_index = total_words.index(target)
-        while dq:
-            x = dq.popleft()
-            temp = 1
-            if x == target_index:
-                answer += 1
-                continue
-
-            for i in one_diff_list[x]:
+    while dq:
+        start = dq.popleft()
+        diff = min_diff[start]
+        visited[start] = True
+        for i in range(len_total):
+            if one_diff_matrix[start][i] == 1 and not visited[i]:
                 dq.append(i)
+                if min_diff[i] > min_diff[start]+1 :
+                    min_diff[i] = min_diff[start]+1
 
+    print("min_diff :", min_diff)
+    answer = min_diff[target_index]
     return answer
+
+begin = "hit"
+target = "cog"
+words = ['hot', 'dot', 'dog', 'lot', 'log', 'cog']
+answer = solution(begin, target, words)
+print(answer)
