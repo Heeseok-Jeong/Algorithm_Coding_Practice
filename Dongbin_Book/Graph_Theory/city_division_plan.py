@@ -35,7 +35,7 @@ for c, a, b in edges:
         union_parent(parent, a, b)
         total_cost += c
         used_edges.append((c, a, b))
-        max_cost = max(max_cost, c)
+        max_cost = c
 
 answer = total_cost - max_cost
 print(answer)
