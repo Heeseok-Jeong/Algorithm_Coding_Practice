@@ -1,41 +1,24 @@
-from math import log2
+n, r, c = map(int, input().split())
 
-N, r, c = map(int, input().split())
+result = 0
+flag = False
 
-grid = [[0 for _ in range(2**N)] for _ in range(2**N)]
+def z(n, x, y):
+    global result, flag
+    if flag:
+        return
 
-def make_z_grid(n, x, y):
-    if n == 1:
-        base = 0
-        if not (x == 0 and y == 0):
-            if x == 0:
-                log_y = log2(y)
-                if log_y == int(log_y):
-                    base = 2**y
-            elif y == 0:
-                log_x = log2(x)
-                if log_x == int(log_x):
-                    base = 2**(x+1)
-            else:
-                log_x = log2(x)
-                log_y = log2(y)
-                base = 
-        grid[x][y] = base
-        grid[x][y+1] = base + 1
-        grid[x+1][y] = base + 2
-        grid[x+1][y+1] = base + 3
+    if x == r and y == c:
+        flag = True
+    elif n == 1:
+        result += 1
+    elif not (x <= r < x + n and y <= c < y + n):
+        result += n**2
+    else:    
+        z(n / 2, x, y)
+        z(n / 2, x, y + n/2)
+        z(n / 2, x + n/2, y)
+        z(n / 2, x + n/2, y + n/2)
 
-
-    else:
-        make_z_grid(n-1, x, y)
-        make_z_grid(n-1, x, y+2**(n-1))
-        make_z_grid(n-1, x+2**(n-1), y)
-        make_z_grid(n-1, x+2**(n-1), y+2**(n-1))
-
-make_z_grid(N, 0, 0)
-
-for line in grid:
-    print(line)
-
-print(grid[r][c])
-
+z(2**n, 0, 0)
+print(int(result))
