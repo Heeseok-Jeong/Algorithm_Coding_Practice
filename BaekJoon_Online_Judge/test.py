@@ -1,17 +1,9 @@
-for i in range(1, 10):
-    if 2<i<4:
-        print(i)
-        break
-    else:
-        print("a")
-else:
-    print("end of loop. not found")
-
-for i in range(1, 10):
-    if 2<i<3:
-        print(i)
-        break
-    else:
-        print("b")
-else:
-    print("end of loop. not found")
+import dis
+print(4 != 0 not in [1, 2, 3])
+dis.dis('print(4 != 0 not in [1, 2, 3])')
+print((4 != 0) not in [1, 2, 3])
+dis.dis('print((4 != 0) not in [1, 2, 3])')
+print(4 != 0 not in [0, 1, 2, 3])
+dis.dis('print(4 != 0 not in [0, 1, 2, 3])')
+print((4 != 0) not in [0, 1, 2, 3])
+dis.dis('print((4 != 0) not in [0, 1, 2, 3])')
