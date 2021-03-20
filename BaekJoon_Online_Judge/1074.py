@@ -1,24 +1,23 @@
-n, r, c = map(int, input().split())
-
-result = 0
-flag = False
-
 def z(n, x, y):
-    global result, flag
-    if flag:
-        return
-
+    global result, N, flag
     if x == r and y == c:
         flag = True
-    elif n == 1:
+        return
+    if flag:
+        return
+    
+    if n == 0:
         result += 1
-    elif not (x <= r < x + n and y <= c < y + n):
-        result += n**2
+    elif not (x <= r < x+2**n and y <= c < y+2**n) and n != N:
+        result += 4**n
     else:    
-        z(n / 2, x, y)
-        z(n / 2, x, y + n/2)
-        z(n / 2, x + n/2, y)
-        z(n / 2, x + n/2, y + n/2)
+        z(n-1, x, y)
+        z(n-1, x, y + 2**(n-1))
+        z(n-1, x + 2**(n-1), y)
+        z(n-1, x + 2**(n-1), y + 2**(n-1))
 
-z(2**n, 0, 0)
-print(int(result))
+N, r, c = map(int, input().split())
+result = 0
+flag = False
+z(N, 0, 0)
+print(result)
