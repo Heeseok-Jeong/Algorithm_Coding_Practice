@@ -13,7 +13,6 @@ def preorder_traversal(a):
     preorder_traversal(tree[a][0])
     preorder_traversal(tree[a][1])
 
-
 def inorder_traversal(a):
     if a == '.':
         return
@@ -35,6 +34,7 @@ def print_result():
         print(x, end='')
     print()
     result.clear()
+
 
 N = int(input())
 for _ in range(N):
