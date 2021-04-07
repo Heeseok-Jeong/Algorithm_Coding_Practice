@@ -1,25 +1,26 @@
-class point():
-    bo = 0
-    gi = 0
+def possible(answer):
+    for x, y, a in answer:
+        if a == 0: # 기둥
+            if y == 0 or [x-1, y, 1] in answer or [x, y, 1] in answer or [x, y-1, 0] in answer:
+                continue
+            return False
+        elif a == 1: # 보
+            if [x, y-1, 0] in answer or [x+1, y-1, 0] in answer or ([x-1, y, 1] in answer and [x+1, y, 1] in answer):
+                continue
+            return False
+    return True
 
 def solution(n, build_frame):
-    answer = [[]]
-    grid = [[point() for _ in range(n)] for _ in range(n)]
+    answer = []
     
     for x, y, a, b in build_frame:
-        if b == 1:
-            if a == 1:
-                if possible_bo(grid, x, y): # 해당 위치에 보 설치 가능하면
-                    grid[x][y].bo = 1
-                    answer.append([x, y, a])
-            elif a == 0:
-                if possible_gi(grid, x, y): # 해당 위치에 기둥 설치 가능하면
-                    grid[x][y].gi = 1
-                    answer.append([x, y, a])
-        elif b == 0:
-            if a == 1: # 보 제거
-                grid[x][y].bo = 0
-                if 
+        if b == 0: # 제거
+            answer.remove([x, y, a])
+            if not possible(answer):
+                answer.append([x, y, a])
+        elif b == 1: # 설치
+            answer.append([x, y, a])
+            if not possible(answer):
+                answer.remove([x, y, a])
     
-    
-    return answer
+    return sorted(answer)
