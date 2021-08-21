@@ -4,7 +4,6 @@ OUT = "O"
 BLACKHOLE = "C"
 PLANET1 = "\\"
 PLANET2 = "/"
-VISIT = "*"
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
@@ -32,10 +31,14 @@ for d in range(4):
     while True:
         time += 1
 
+        if time > 2*N*M:
+            time = "Voyager"
+            break
+
         x += dx[d]
         y += dy[d]
 
-        if grid[x][y] in [BLACKHOLE, OUT, VISIT]:
+        if grid[x][y] in [BLACKHOLE, OUT]:
             break
         elif grid[x][y] == PLANET1:
             if d == 0:
@@ -57,21 +60,16 @@ for d in range(4):
                 d = 3
             elif d == 3:
                 d = 2
-        else:
-            grid[x][y] = VISIT
-
-    if grid[x][y] == VISIT:
-        results.append(-1)
-        break
     
     results.append(time)
 
 result_direction = direction[0]
 result_time = 0
+
 for i in range(4):
-    if results[i] == -1:
+    if "Voyager" == results[i]:
         result_direction = direction[i]
-        result_time = "Voyager"
+        result_time = results[i]
         break
     
     if result_time < results[i]:
